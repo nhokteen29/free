@@ -54,7 +54,7 @@ def hearthVideo():
 
 def comment():
     global url_video, headers_default
-    content_cmt = 'Trong hoa dep trai dung k?'
+    content_cmt = 'Trong tui dep trai dung k?'
     headers = getHeaderUser(url_video)
     msToken = headers["Set-Cookie"].split('msToken=')[1].split(';')[0]
     idVideo = url_video.split('/video/')[1].split('?')[0]
